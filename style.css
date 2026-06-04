@@ -1,0 +1,151 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+}
+
+.main-2{
+    height:350px;
+    width: 950px;
+    background-color:white;
+    border-radius: 20px;
+}
+
+
+.google-text{
+    height: 350px;
+    display: flex;
+    font-family: Inter,sans-serif;
+}
+
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-left:10px;
+    
+}
+
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+    gap:20px;
+    justify-content: end;
+    
+}
+
+.left > img{
+    width: 80px;
+    height: 80px;
+}
+
+.sign-in-text{
+    font-size:2em;
+}
+
+.input-box > input{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.para{
+    margin-top: 20px;
+}
+
+
+.btn{
+    margin-top: 70px;
+    display: flex;
+    justify-content:right;
+    gap: 30px;
+
+}
+
+.btn-1 > button{
+    background:none;
+    border:none;
+    color:blue;
+    padding: 10px 20px;
+
+}
+
+.btn-2 > button{
+    background-color:blue;
+    color:white;
+    border:none;
+    padding: 10px 20px;
+    border-radius: 10px; 
+}
+
+.links > select{
+    background:none;
+    border:none;
+    margin-top: 20px;
+    color:grey;
+}
+
+.links-2{
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+}
+
+.links-2 > a{
+    text-decoration: none;
+    color:grey;
+}
+
+@media screen and (max-width: 412px){
+    .main-2{
+        width:100vw;
+        min-height:100vh;
+        border-radius:0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .google-text{
+        flex-direction: column;
+
+    }
+
+    .left{
+        padding: auto;
+        margin-left:20px;
+        gap:20px;
+        
+    }
+     
+    
+     .links-2 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+
+    
+     } 
+
+    .btn-1 > button{
+        padding: 5px 20px;
+    
+    }
+
+    
+}
+
+
+
